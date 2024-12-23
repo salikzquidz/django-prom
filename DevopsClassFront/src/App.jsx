@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import { initializeApp } from "firebase/app";
 function App() {
 
   const [name, setName] = useState('');
@@ -36,7 +35,8 @@ function App() {
   return (
     <div className="App">
       <div className="form-container">
-        <h2>Add Name For New Devops Student</h2>
+         <h1>HELLO PEEPS</h1>
+        <h2>Add Name For New Devops Student 123</h2>
         <form onSubmit={handleAddName}>
           <input
             type="text"
